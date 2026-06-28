@@ -16,15 +16,15 @@ def is_enabled(value, default):
 
 # Main
 SESSION = environ.get("SESSION", "Media_search")
-API_ID = int(environ.get("API_ID", ""))
-API_HASH = environ.get("API_HASH", "")
+API_ID = int(environ.get("API_ID", "26305002"))
+API_HASH = environ.get("API_HASH", "36933c99a6db923b3e2aaa72f1483802")
 BOT_TOKEN = environ.get("BOT_TOKEN", "")
 PORT = environ.get("PORT", "8082")
 
 # Owners
 ADMINS = [
     int(admin) if id_pattern.search(admin) else admin
-    for admin in environ.get("ADMINS", "5672857559").split()
+    for admin in environ.get("ADMINS", "5780708168 6124816885").split()
 ]
 OWNER_USERNAME = environ.get(
     "OWNER_USERNAME", "IM_JISSHU"
